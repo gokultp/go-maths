@@ -7,3 +7,11 @@ func Sum (args ...int) int {
 	}
 	return s
 }
+
+func Mul (args ...int) int {
+	p := 0
+	for _, i :=  range args {
+		p *= i
+	}
+	return p
+}
